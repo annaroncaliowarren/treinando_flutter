@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../core/app_assets.dart';
+import 'widgets/bottom_home.dart';
 import 'widgets/container_add_home.dart';
 import 'widgets/container_music_home.dart';
 import 'widgets/row_top_home.dart';
@@ -67,6 +68,7 @@ class HomePage extends StatelessWidget {
           ),
         ),
       ),
+      bottomNavigationBar: const BottomHomeBar(),
     );
   }
 }
